@@ -2,3 +2,74 @@
 /shelf/
 /workspace.xml
 /.idea
+
+# Ignore target/ directory
+/target/
+
+# Ignore .classpath, .project, .settings/ and .factorypath
+*.classpath
+*.project
+.settings/
+.factorypath
+
+# Ignore spring-boot-devtools settings
+/.idea
+*.iml
+.idea/
+
+# Ignore Eclipse files
+/.metadata/
+bin/
+tmp/
+
+# Ignore IntelliJ IDEA files
+*.iws
+*.iml
+*.ipr
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build-related files
+build/
+out/
+
+# Ignore Maven-specific files
+log/
+target/
+.idea/
+
+# Ignore Gradle-specific files
+.gradle/
+build/
+
+# Ignore system files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore Maven war plugin directory target
+**/target/
+
+# Ignore JRebel
+ rebel.xml
+
+# Ignore local properties files
+src/main/resources/application-local.properties
+src/test/resources/application-local.properties
+
+# Maven build files
+pom.xml.releaseBackup
+release.properties
+pom.xml.branchBackup
+pom.xml.tag
